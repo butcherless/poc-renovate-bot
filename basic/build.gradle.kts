@@ -25,6 +25,7 @@ dependencies {
     
     // renovate bot testing
     implementation("ch.qos.logback:logback-classic:1.2.10")
+    implementation("com.h2database:h2:2.1.210")
 
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
