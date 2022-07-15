@@ -8,7 +8,7 @@
 
 plugins {
     // Apply the org.jetbrains.kotlin.jvm Plugin to add support for Kotlin.
-    id("org.springframework.boot") version "2.7.0"
+    id("org.springframework.boot") version "2.7.1"
     id("io.spring.dependency-management") version "1.0.12.RELEASE"
     kotlin("jvm")
     kotlin("plugin.spring")
@@ -23,7 +23,7 @@ dependencies {
     // Use the Kotlin JDK 8 standard library.
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    implementation("io.arrow-kt:arrow-core:1.1.0")
+    implementation("io.arrow-kt:arrow-core:1.1.2")
 
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")

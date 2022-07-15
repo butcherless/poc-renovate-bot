@@ -21,13 +21,13 @@ dependencies {
     // Use the Kotlin JDK 8 standard library.
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    implementation("io.arrow-kt:arrow-core:1.1.0")
+    implementation("io.arrow-kt:arrow-core:1.1.2")
     
     // renovate bot testing
-    implementation("ch.qos.logback:logback-classic:1.2.10")
-    implementation("com.h2database:h2:2.1.210")
-    implementation("com.opencsv:opencsv:5.5")
-    implementation("org.apache.httpcomponents:httpclient:4.5.8")
+    implementation("ch.qos.logback:logback-classic:1.2.11")
+    implementation("com.h2database:h2:2.1.214")
+    implementation("com.opencsv:opencsv:5.6")
+    implementation("org.apache.httpcomponents:httpclient:4.5.13")
     
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
