@@ -1,21 +1,8 @@
 {
-  "automerge": true,
+  "automerge": false,
   "automergeType": "pr",
   "dependencyDashboard": true,
   "extends": [
     "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch"
-    }
   ]
 }
