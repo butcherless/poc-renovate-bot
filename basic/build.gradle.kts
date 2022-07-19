@@ -27,7 +27,7 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:1.2.10")
     implementation("com.h2database:h2:2.1.210")
     implementation("com.opencsv:opencsv:5.5")
-    implementation("org.apache.httpcomponents:httpclient:4.5.8")
+    implementation("org.apache.httpcomponents:httpclient:4.5.13")
     
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
