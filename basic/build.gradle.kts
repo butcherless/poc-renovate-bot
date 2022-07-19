@@ -24,7 +24,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-core:1.1.0")
     
     // renovate bot testing
-    implementation("ch.qos.logback:logback-classic:1.2.10")
+    implementation("ch.qos.logback:logback-classic:1.2.11")
     implementation("com.h2database:h2:2.1.210")
     implementation("com.opencsv:opencsv:5.5")
     implementation("org.apache.httpcomponents:httpclient:4.5.8")
